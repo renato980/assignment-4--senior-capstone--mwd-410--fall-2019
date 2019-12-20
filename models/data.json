@@ -1,0 +1,7 @@
+"data" {
+	"first-name": "first",
+	"last-name": "last",
+  "email": "name@gmail.com",
+	"username": "username",
+	"password": "password"
+}

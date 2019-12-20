@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		{%- import 'variables.njk' as vars -%}
+		{%- import 'macros/layouts-in.njk' as layouts -%}
+		{%- import 'macros/nonlayouts.njk' as nonlayouts -%}
+		{{ nonlayouts.head(vars.title17)}}
+</head>
+<body>
+    {{ layouts.nav('none',links) }}
+    {%- include 'nunjucks/sh2.njk' -%}
+		{%- include 'nunjucks/reviews.njk' -%}
+		{%- include 'nunjucks/send-review-sh2.njk' -%}
+</body>
+</html>
